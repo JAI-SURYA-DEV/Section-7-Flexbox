@@ -1,0 +1,56 @@
+First up, there's one called flex-direction,
+which specifies in which direction the main axis goes.
+
+
+
+Okay? Next, there is flex-wrap,
+which simply defines if the Flex items
+should wrap into a new line if there is not enough space
+in the Flex container or not.
+
+
+Then, we have justify-content, and this one defines
+how the Flex items will be aligned along the main axis.
+Okay?
+
+Next, there's the align-items property,
+which is very similar to justify-content with a difference
+that this one defines how the Flex items will be aligned
+along the cross axis, not the main axis.
+So, align-items is many times used
+together with justify-content, and to me,
+these two are the most important Flexbox properties of all.
+
+And then finally, there is align-content,
+which only applies when there is more than one row
+of Flex items.
+In that case, align-content controls
+how the rows are aligned along the cross axis
+if there is some empty space.
+
+
+Now, about the properties for Flex items,
+the first one is called align-self,
+which is very similar to align-items
+but for one individual Flex item.
+So imagine for example, that we set align items to center,
+but then we want one of the items
+to be aligned to the bottom.
+And so we can use align-self for that, okay?
+
+
+Next up, there is order,
+which defines the order in which one specific Flex item
+should appear inside the container.
+And this is really helpful to reorder items
+for example for smaller screens.
+
+And now finally, we have three properties that together,
+basically helps Flexbox decide on the width of a Flex item.
+So, with flex-grow, we define how much an item can grow.
+With flex-shrink, we define how much it can shrink.
+And with flex-basis, we can define its base width.
+And there's actually a shortened property of these,
+which is simply called flex.
+And this one is actually the one that should be used.
+
